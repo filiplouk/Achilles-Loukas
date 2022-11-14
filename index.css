@@ -1,0 +1,145 @@
+
+/* ---------------------------Navigation Bar---------------------------------------- */
+.navigation-bar{
+  height: 100vh;
+  background-color: black;
+  position: fixed;
+
+}
+
+.navigation-bar a{
+  font-size: 1.8rem;
+  color:white;
+  text-decoration: inherit;
+  font-family: 'Lato', sans-serif;
+
+}
+
+.navigation-bar .chapter{
+  margin-top: 25%;
+  position: relative;
+  left:15%;
+  font-size:2rem;
+}
+
+.icons{
+  position: relative;
+  right: 10%;
+  top: 35%;
+}
+
+.chapter a:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+/* --------------------------------------- Content -------------------------------------------------- */
+.content img{
+  width: 102%;
+}
+
+#label_1{
+  font-family: "Lato", sans-serif;
+  font-size: 5rem;
+  font-weight: bold;
+  position: absolute;
+  top:7%;
+  left: 13%;
+  color: white;
+}
+
+#label_2{
+  font-family: "Lato", sans-serif;
+  font-size: 3rem;
+  position: absolute;
+  top:10%;
+  left: 13%;
+  color: white;
+}
+
+@media only screen and (min-width: 992px) {
+  .content{
+    position: relative;
+    left: 15.8%;
+  }
+  .content img{
+    width: 102%;
+
+  }
+}
+
+
+
+.section{
+  padding: 5%;
+  font-family: "Lato", sans-serif;
+
+
+}
+
+.section h1{
+  font-size: 40px;
+
+}
+.title{
+
+  margin-bottom: 8%;
+  color: #3C4048;
+  text-align: center;
+
+}
+
+.section h3{
+  font-size: 30px ;
+  color: #3C4048;
+  margin-bottom: 6%;
+  margin-top: 8%;
+  letter-spacing: 200%;
+  font-weight: bold;
+}
+
+.section h4{
+  font-size: 26px;
+  color: #3C4048;
+  margin-bottom: 2%;
+  letter-spacing: 60%;
+
+}
+
+.section p{
+  font-size: 24px ;
+  letter-spacing: 150%;
+  margin-top: 3%;
+  color: #3C4048;
+  font-weight: 300;
+
+}
+
+#resume p{
+  font-weight: 300;
+}
+
+.section a{
+  font-size: 22px;
+
+}
+
+.section li{
+  font-size: 22px ;
+  letter-spacing: 60%;
+  margin-top: 3%;
+  color: #181818;
+  font-weight:300;
+}
+
+#projects h4{
+  margin-top: 8%;
+}
+.tools{
+  text-align: center;
+}
+
+.tools .row{
+  font-size: 20px;
+  border:1px solid #3C4048;
+}
