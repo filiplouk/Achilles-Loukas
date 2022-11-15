@@ -8,7 +8,7 @@
 }
 
 .navigation-bar a{
-  font-size: 1.8rem;
+  font-size: 2rem;
   color:white;
   text-decoration: inherit;
   font-family: 'Lato', sans-serif;
@@ -16,10 +16,9 @@
 }
 
 .navigation-bar .chapter{
-  margin-top: 25%;
+  margin-top:8.4vh;
   position: relative;
   left:15%;
-  font-size:2rem;
 }
 
 .icons{
@@ -33,7 +32,19 @@
   text-decoration: underline;
 }
 
+@media only screen and (max-width: 1300px) {
+
+  .navigation-bar a{
+    font-size: 1.7rem;
+  }
+  .navigation-bar .chapter{
+    margin-top:9vh;
+  }
+}
+
 /* --------------------------------------- Content -------------------------------------------------- */
+
+/* IMG */
 .content img{
   width: 102%;
 }
@@ -57,7 +68,7 @@
   color: white;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1200px) {
   .content{
     position: relative;
     left: 15.8%;
@@ -68,6 +79,19 @@
   }
 }
 
+@media only screen and (max-width: 1300px) {
+  #label_1{
+    font-size: 4rem;
+  }
+  #label_2{
+    font-size: 2rem;
+  }
+
+}
+
+
+
+/* SECTIONS */
 
 
 .section{
@@ -78,7 +102,7 @@
 }
 
 .section h1{
-  font-size: 40px;
+  font-size: 250%;
 
 }
 .title{
@@ -90,16 +114,16 @@
 }
 
 .section h3{
-  font-size: 30px ;
+  font-size: 180% ;
   color: #3C4048;
   margin-bottom: 6%;
   margin-top: 8%;
   letter-spacing: 200%;
-  font-weight: bold;
+  font-weight:700;
 }
 
 .section h4{
-  font-size: 26px;
+  font-size: 162.5%;
   color: #3C4048;
   margin-bottom: 2%;
   letter-spacing: 60%;
@@ -107,7 +131,7 @@
 }
 
 .section p{
-  font-size: 24px ;
+  font-size: 150% ;
   letter-spacing: 150%;
   margin-top: 3%;
   color: #3C4048;
@@ -120,12 +144,12 @@
 }
 
 .section a{
-  font-size: 22px;
+  font-size: 137%;
 
 }
 
 .section li{
-  font-size: 22px ;
+  font-size: 137% ;
   letter-spacing: 60%;
   margin-top: 3%;
   color: #181818;
@@ -140,6 +164,32 @@
 }
 
 .tools .row{
-  font-size: 20px;
+  font-size: 125%;
+  font-family: "Lato", sans-serif;
   border:1px solid #3C4048;
+}
+
+@media only screen and (max-width: 1200px) {
+  #about{
+    margin-top: 10%;
+  }
+  .section h1{
+    font-size: 210%;
+  }
+  .section h3{
+    font-size: 140%;
+  }
+  .section h4{
+    font-size: 122.5%;
+  }
+  .section p{
+    font-size: 110%;
+  }
+  .section li{
+    font-size: 100%;
+  }
+  .tools .row{
+    font-size: 100%;
+  }
+
 }
