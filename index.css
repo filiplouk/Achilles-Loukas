@@ -141,9 +141,19 @@
   font-weight: 300;
 
 }
+/* -------------------------------RESUME------------------------------- */
 
 #resume p{
   font-weight: 300;
+}
+
+#resume .date{
+  display: inline-block;
+  border-bottom: 1px solid #3C4048;
+}
+
+#resume i{
+  margin-right: 1%;
 }
 
 .section a{
@@ -158,6 +168,10 @@
   color: #181818;
   font-weight:300;
 }
+
+
+
+/* ---------------------------------------PROJECTS---------------------------------- */
 
 #projects h4{
   margin-top: 8%;
