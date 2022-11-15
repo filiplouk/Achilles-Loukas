@@ -16,7 +16,7 @@
 }
 
 .navigation-bar .chapter{
-  margin-top:8.4vh;
+  margin-top:9vh;
   position: relative;
   left:15%;
 }
@@ -41,6 +41,13 @@
     margin-top:9vh;
   }
 }
+
+
+/* ----------------------------------------Navigation Bar at Smaller Screens------------------ */
+.navbar-nav a{
+  font-family:"Lato",sans-serif;
+}
+
 
 /* --------------------------------------- Content -------------------------------------------------- */
 
@@ -97,20 +104,16 @@
 .section{
   padding: 5%;
   font-family: "Lato", sans-serif;
+}
 
-
+.title{
+  text-align: center;
 }
 
 .section h1{
   font-size: 250%;
-
-}
-.title{
-
   margin-bottom: 8%;
   color: #3C4048;
-  text-align: center;
-
 }
 
 .section h3{
@@ -169,6 +172,11 @@
   border:1px solid #3C4048;
 }
 
+
+
+/* Make it responsive */
+
+
 @media only screen and (max-width: 1200px) {
   #about{
     margin-top: 10%;
@@ -191,5 +199,31 @@
   .tools .row{
     font-size: 100%;
   }
+
+}
+
+@media only screen and (max-width: 992px) {
+  .section h1{
+    margin-bottom: 16%;
+    margin-top: 5%;
+  }
+  .section h3{
+    margin-bottom: 15%;
+    margin-top: 15%;
+  }
+  .section h4{
+    margin-bottom: 7%;
+  }
+
+  #projects h4{
+    margin-top: 15%;
+  }
+
+  .section li{
+    margin-top: 7%;
+  }
+
+
+
 
 }
