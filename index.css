@@ -48,6 +48,10 @@
   font-family:"Lato",sans-serif;
 }
 
+.navbar-brand{
+  font-size: 1.8rem !important;
+}
+
 
 /* --------------------------------------- Content -------------------------------------------------- */
 
@@ -141,6 +145,8 @@
   font-weight: 300;
 
 }
+
+
 /* -------------------------------RESUME------------------------------- */
 
 #resume p{
@@ -175,6 +181,11 @@
 
 #projects h4{
   margin-top: 8%;
+}
+
+.project{
+  text-align:center;
+
 }
 .tools{
   text-align: center;
