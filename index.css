@@ -48,9 +48,13 @@
   top: 35%;
 }
 
+.icons i:hover{
+  color: #3C4044;
+}
+
+
 .chapter a:hover{
   color: white;
-  text-decoration: underline;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -196,10 +200,6 @@
 
 /* ---------------------------------------PROJECTS---------------------------------- */
 
-#projects h4{
-  margin-top: 8%;
-  margin-bottom: 6%;
-}
 
 .project{
   text-align:center;
@@ -214,14 +214,27 @@
   font-weight: 300;
 }
 
+.project .info{
+  margin-top: 5%;
+}
 
+
+.tools{
+  margin-top: 10%;
+}
 .tools .row{
   font-size: 125%;
   font-family: "Lato", sans-serif;
-  border:1px solid grey;
+  border:1px solid #C7BCA1;
   margin-bottom: 6%;
+
 }
 
+/* ----------------------------------- Contact --------------------------------- */
+
+.details{
+  text-align: center;
+}
 
 
 /* Make it responsive */
@@ -272,6 +285,17 @@
 
   .section li{
     margin-top: 7%;
+  }
+  #projects a {
+    font-size: 110%;
+  }
+
+  .project{
+    margin-top: 20%;
+  }
+
+  .details{
+    margin: 10% auto;
   }
 
 
