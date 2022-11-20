@@ -5,20 +5,41 @@
   background-color: black;
   position: fixed;
 
+
+
 }
 
 .navigation-bar a{
-  font-size: 2rem;
+  font-size: 1.4rem;
   color:white;
   text-decoration: inherit;
   font-family: 'Lato', sans-serif;
 
 }
 
+
+
+
 .navigation-bar .chapter{
-  margin-top:9vh;
+  margin-top:6vh;
   position: relative;
   left:15%;
+}
+
+.navigation-bar img{
+  width:70%;
+  border-radius: 50%;
+  position:relative;
+  left:10%;
+  margin-top: 7%;
+  margin-bottom: 4%;
+  border: 8px solid grey;
+}
+
+.navigation-bar hr{
+  height: 4px;
+  color: white;
+
 }
 
 .icons{
@@ -35,10 +56,10 @@
 @media only screen and (max-width: 1300px) {
 
   .navigation-bar a{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
   .navigation-bar .chapter{
-    margin-top:9vh;
+    margin-top:6.5vh;
   }
 }
 
@@ -56,27 +77,26 @@
 /* --------------------------------------- Content -------------------------------------------------- */
 
 /* IMG */
-.content img{
-  width: 102%;
-}
+
 
 #label_1{
   font-family: "Lato", sans-serif;
   font-size: 5rem;
   font-weight: bold;
   position: absolute;
-  top:7%;
+  top:6.5%;
   left: 13%;
-  color: white;
+  color: #3C4044;
 }
+
 
 #label_2{
   font-family: "Lato", sans-serif;
   font-size: 3rem;
   position: absolute;
-  top:10%;
+  top:9.5%;
   left: 13%;
-  color: white;
+  color: #3C4044;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -84,6 +104,7 @@
     position: relative;
     left: 15.8%;
   }
+
   .content img{
     width: 102%;
 
@@ -162,10 +183,6 @@
   margin-right: 1%;
 }
 
-.section a{
-  font-size: 137%;
-
-}
 
 .section li{
   font-size: 137% ;
@@ -181,20 +198,28 @@
 
 #projects h4{
   margin-top: 8%;
+  margin-bottom: 6%;
 }
 
 .project{
   text-align:center;
 
 }
-.tools{
-  text-align: center;
+
+.project a{
+  color:#3C4048;
+  font-family: "Lato", sans-serif;
+  font-size: 150%;
+  text-decoration: none;
+  font-weight: 300;
 }
+
 
 .tools .row{
   font-size: 125%;
   font-family: "Lato", sans-serif;
-  border:1px solid #3C4048;
+  border:1px solid grey;
+  margin-bottom: 6%;
 }
 
 
@@ -207,6 +232,7 @@
     margin-top: 10%;
   }
   .section h1{
+    margin-top: 5%;
     font-size: 210%;
   }
   .section h3{
