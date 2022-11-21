@@ -132,15 +132,15 @@
   }
   #mobile_top_image {
     text-align: center;
-    height: 45vw;
+    height: 55vw;
     background-color: #3C4048;
     margin-bottom: 20%;
   }
   #mobile_top_image img{
-    width:40vw;
+    width:50vw;
     border-radius: 50%;
     position: relative;
-    top:55%;
+    top:50%;
 
   }
 
@@ -266,7 +266,7 @@
 
 @media only screen and (max-width: 1200px) {
   #about{
-    margin-top: 10%;
+    margin-top: 40%;
   }
   .section h1{
     margin-top: 5%;
