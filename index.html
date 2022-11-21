@@ -35,9 +35,21 @@
     </div>
   </nav>
 
-
-
-
+  <div class="icons_mobile d-block d-xl-none fixed-bottom ">
+    <div class="row">
+      <div class="col-4">
+        <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Ffiliplouk%3Ffbclid%3DIwAR3eOYqB1F-yzeEsdRKy4VBdoQ9dmkhMKUzd9V_f1_fo-Wn40ftfa6LW2bU&h=AT3hE8uJJ88CSb-hi7ZS6-DuQVYu39ZvVNhL93tiVJq4tCkyvMhCCXVYNC12hDDXABN6KJLLEc_qCWkBjU1P40i8PjDNxDgv3SqsDn_0PkmViJ4ZBY6h8U8PL7UdzYzxJUVW-A"
+          target="_blank" rel="noreferrer noopener">
+          <i class="fa-brands fa-github fa-2x" style="color:white"></i></a>
+      </div>
+      <div class="col-4">
+        <a href="https://www.linkedin.com/in/achilles-loukas-431a7b250/" target="_blank"><i class="fa-brands fa-linkedin fa-2x "style="color:white"></i></a>
+      </div>
+      <div class="col-4" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="filipachlouk@gmail.com">
+        <a role="button" style="color:white"> <i class="fa-regular fa-envelope fa-2x"></i></a>
+      </div>
+    </div>
+  </div>
   <div class="container-fluid">
     <div class="row">
       <div class="col-xl-2 navigation-bar d-none  d-xl-block">
@@ -89,10 +101,12 @@
     </div>
     <div class="col-xl-10 content">
       <div class="d-none  d-xl-block section">
-        <img id="top-image" src="images/76.jpg">
+        <img src="images/76.jpg">
         <label id="label_1">Achilles Loukas</label>
         <label id="label_2"></label>
-
+      </div>
+      <div id="mobile_top_image" class="d-block d-xl-none section ">
+        <img src="images/you.jpg" alt="">
 
       </div>
 
@@ -191,17 +205,33 @@
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="images/page1.png" class="d-block w-100" alt="...">
+              <img src="images/page1.png" class="w-100 d-none d-md-block" alt="...">
+              <img src="images/mobile_carousel_1.jpg" class=" w-100 d-block d-md-none" alt="...">
+
             </div>
             <div class="carousel-item">
-              <img src="images/page2.png" class="d-block w-100" alt="...">
+              <img src="images/page2.png" class="w-100 d-none d-md-block" alt="...">
+              <img src="images/mobile_carousel_2.jpg" class=" w-100 d-block d-md-none" alt="...">
+
             </div>
             <div class="carousel-item">
-              <img src="images/page3.png" class="d-block w-100" alt="...">
+              <img src="images/page3.png" class="w-100 d-none d-md-block" alt="...">
+              <img src="images/mobile_carousel_3.jpg" class=" w-100 d-block d-md-none" alt="...">
+
             </div>
+            <div class="carousel-item">
+              <img src="images/page4.png" class="w-100 d-none d-md-block" alt="...">
+              <img src="images/mobile_carousel_4.jpg" class=" w-100 d-block d-md-none" alt="...">
+
+            </div>
+
+
+
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>

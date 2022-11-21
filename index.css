@@ -77,10 +77,17 @@
   font-size: 1.8rem !important;
 }
 
+.icons_mobile{
+  text-align: center;
+  background-color:#3C4044 ;
+  padding-top: 2%;
+}
+
 
 /* --------------------------------------- Content -------------------------------------------------- */
 
 /* IMG */
+
 
 
 #label_1{
@@ -113,6 +120,7 @@
     width: 102%;
 
   }
+
 }
 
 @media only screen and (max-width: 1300px) {
@@ -122,6 +130,22 @@
   #label_2{
     font-size: 2rem;
   }
+  #mobile_top_image {
+    text-align: center;
+    height: 38vw;
+    background-color: #3C4048;
+    margin-bottom: 20%;
+  }
+  #mobile_top_image img{
+    width:35vw;
+    border-radius: 50%;
+    position: relative;
+    top:45%;
+
+  }
+
+
+
 
 }
 
