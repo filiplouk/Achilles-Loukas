@@ -132,12 +132,12 @@
   }
   #mobile_top_image {
     text-align: center;
-    height: 38vw;
+    height: 45vw;
     background-color: #3C4048;
     margin-bottom: 20%;
   }
   #mobile_top_image img{
-    width:35vw;
+    width:40vw;
     border-radius: 50%;
     position: relative;
     top:45%;
